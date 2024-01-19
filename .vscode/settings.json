@@ -1,0 +1,17 @@
+{
+  "discord.removeDetails": true,
+  "discord.removeLowerDetails": true,
+  "discord.removeRemoteRepository": true,
+  "discord.removeTimestamp": true,
+  "discord.lowerDetailsIdling": "{empty}",
+  "discord.lowerDetailsEditing": "{empty}",
+  "discord.lowerDetailsNoWorkspaceFound": "{empty}",
+  "discord.lowerDetailsDebugging": "{empty}",
+  "discord.largeImageIdling": "{empty}",
+  "discord.largeImage": "{empty}",
+  "discord.detailsIdling": "{empty}",
+  "discord.enabled": false,
+  "discord.detailsEditing": "{empty}",
+  "discord.detailsDebugging": "{empty}",
+  "discord.swapBigAndSmallImage": true
+}
