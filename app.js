@@ -1,14 +1,13 @@
-const { parse } = require("path");
-
 alert("Boas vindas ao jogo do número secreto");
+let numeroMaximo = 5000;
 //numero aleatório e inteiro entre 1 e 10 onde o 10 corresponde ao range e o +1 foi adicionado pq o padrão é 0-99)
-let numeroSecreto = parseInt(Math.random()*100+1);
+let numeroSecreto = parseInt(Math.random()*numeroMaximo+1);
 let chute;
 let tentativas = 1;
 
 //enquanto o chute não for o numero secreto
 while (chute != numeroSecreto) {
-  chute = prompt("Escolha um número entre 1 e 100");
+  chute = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);
   //se chute = numeroSecreto
   if (chute == numeroSecreto) {
     break;
